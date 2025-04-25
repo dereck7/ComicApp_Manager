@@ -1,0 +1,31 @@
+/* tema_claro.qss */
+QWidget#centralWidget {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                              stop:0 #ffffff, stop:1 #e0e0e0);
+}
+
+QPushButton {
+    border: 3px solid #d62828;
+    border-radius: 10px;
+    padding: 10px;
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #ffffff, stop:1 #e0e0e0);
+    color: #333333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #ffffff, stop:1 #d62828);
+    color: white;
+    border: 3px solid white;
+}
+
+#title_label {
+    color: #d62828;
+    font-size: 48px;
+    font-family: "Bangers";
+    font-weight: bold;
+    letter-spacing: 3px;
+}

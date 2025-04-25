@@ -1,0 +1,43 @@
+/* tema_superman.qss */
+QWidget#centralWidget {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                              stop:0 #0d47a1, stop:1 #ffd600);
+}
+
+QPushButton {
+    border: 3px solid #d50000;
+    border-radius: 10px;
+    padding: 10px;
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #ffd600, stop:1 #d50000);
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #ffff00, stop:1 #ff0000);
+    color: #ffffff;
+    border: 3px solid #ffd600;
+}
+
+#title_label {
+    font-size: 48px;
+    font-family: "Bangers";
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* Elementos específicos */
+#themeButton {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #ffd600, stop:1 #0d47a1);
+    color: #000000;
+}
+
+#exitButton {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #ff0000, stop:1 #0d47a1);
+    color: white;
+}
